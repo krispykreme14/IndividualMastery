@@ -18,6 +18,10 @@ historyofcomdedy.html: has fun facts about the history of comedy
 
 home.html: our home page, the first thing you see when you click the link to the website
 
+knock.html: our page full of knock knock jokes and a small preview of the hilarous jokes to come
+
+playground.html: a page we use to test code if we need to preview something before putting it on a main page
+
 ## Learning Outcomes
 Through this project, we furthered our knowledge on html and coding websites through Flask. Additionally, we had ah ha moments about transferring the project to Github and InteliJ. 
 

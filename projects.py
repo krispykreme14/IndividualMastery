@@ -3,7 +3,7 @@
 def setup():
   #Person Data
   name = "KILA Comedy"
-  github = "#"
+  github = "https://github.com/iniyaam/Python-Web-Portfolio-Series-1"
   linkedin = "#"
   youtube = "#"
   twitter = "#"
