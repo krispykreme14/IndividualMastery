@@ -9,7 +9,7 @@ def setup():
   twitter = "#"
   source = {"name": name, "github": github, "linkedin": linkedin, "youtube": youtube, "twitter": twitter}
   #Project Data
-  project1 =  "Hidtory of Comedy"
+  project1 =  "History of Comedy"
   projlinks1 = [
     Link("Project Plan", "https://docs.google.com/document/d/1VelBBpneDJVcsaPZCT5Qb72xthwv9PCPSnQTGb2yWMA/edit"),
     Link("Repl", "https://repl.it/@Ryanshay18/ResponsibleFastDesignmethod?#README.md"),
