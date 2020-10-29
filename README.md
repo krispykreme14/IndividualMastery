@@ -26,7 +26,7 @@ playground.html: a page we use to test code if we need to preview something befo
 Through this project, we furthered our knowledge on html and coding websites through Flask. Additionally, we had ah ha moments about transferring the project to Github and InteliJ. 
 
 
-## This Week:
+## Week of 10/26:
 * Added background color to each page on website
 * Worked on home page
 * Worked on creating a menu 
@@ -37,7 +37,7 @@ Through this project, we furthered our knowledge on html and coding websites thr
 * Thought of Aha moments 
   * Iniyaa created Github repository for our project 
 
-## Goals For Next Week:
+## Goals For Week of 11/2:
 * Start to input jokes and information on each of our pages
 * Finalize home page
 * Figure out drop down menu
