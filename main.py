@@ -20,10 +20,31 @@ def comediandecades_route():
 def historyofcomedy_route():
   return render_template("historyofcomedy.html", projects=projects.setup())
 
+#connects /knock path of server to render knock.html
 @app.route('/knock')
 def knock_route():
   return render_template("knock.html", projects=projects.setup())
   
+#connects /iniyaa path of server to render iniyaa.html
+@app.route('/iniyaa')
+def iniyaa_route():
+  return render_template("iniyaa.html", projects=projects.setup())
+
+#connects /ketki path of server to render ketki.html
+@app.route('/ketki')
+def ketki_route():
+  return render_template("ketki.html", projects=projects.setup())
+
+#connects /ava path of server to render ava.html
+@app.route('/ava')
+def ava_route():
+  return render_template("ava.html", projects=projects.setup())
+
+#connects /lucas path of server to render lucas.html
+@app.route('/lucas')
+def lucas_route():
+  return render_template("lucas.html", projects=projects.setup())
+
 @app.route("/playground")
 def playground_route():
   return render_template("playground.html")
@@ -32,4 +53,4 @@ def playground_route():
 
 if __name__ == "__main__":
   #runs the application on the repl development server
-  app.run(debug=True, port='3000', host='0.0.0.0')
+  app.run(debug=True, port='3000', host='127.0.0.1')
