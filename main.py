@@ -20,26 +20,12 @@ def Pics_route():
 def AboutMe_route():
   return render_template("AboutMe.html", projects=projects.setup())
 
-#connects /knock path of server to render embed.html
+#connects /Embed path of server to render embed.html
 @app.route('/Embed')
 def Contact_route():
   return render_template("embed.html", projects=projects.setup())
   
-#connects /iniyaa path of server to render iniyaa.html
-@app.route('/iniyaa')
-def iniyaa_route():
-  return render_template("iniyaa.html", projects=projects.setup())
 
-#connects /ketki path of server to render ketki.html
-@app.route('/ketki')
-def ketki_route():
-  return render_template("ketki.html", projects=projects.setup())
-
-
-#connects /lucas path of server to render lucas.html
-@app.route('/lucas')
-def lucas_route():
-  return render_template("lucas.html", projects=projects.setup())
 
 
 
