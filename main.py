@@ -10,20 +10,20 @@ app = Flask(__name__)
 def home_route():
   return render_template("home.html", projects=projects.setup())
 
-#connects /hello path of server to render comediandecades.html
-@app.route('/comediandecades/')
-def comediandecades_route():
-  return render_template("comediandecades.html", projects=projects.setup())
+#connects /hello path of server to render Pics.html
+@app.route('/Pics/')
+def Pics_route():
+  return render_template("pics.html", projects=projects.setup())
 
-#connects /historyofcomedy path of server to render historyofcomedy.html
-@app.route('/historyofcomedy/')
-def historyofcomedy_route():
-  return render_template("historyofcomedy.html", projects=projects.setup())
+#connects /historyofcomedy path of server to render AboutMe.html
+@app.route('/AboutMe/')
+def AboutMe_route():
+  return render_template("AboutMe.html", projects=projects.setup())
 
-#connects /knock path of server to render knock.html
-@app.route('/knock')
-def knock_route():
-  return render_template("knock.html", projects=projects.setup())
+#connects /knock path of server to render embed.html
+@app.route('/Embed')
+def Contact_route():
+  return render_template("embed.html", projects=projects.setup())
   
 #connects /iniyaa path of server to render iniyaa.html
 @app.route('/iniyaa')
@@ -35,19 +35,12 @@ def iniyaa_route():
 def ketki_route():
   return render_template("ketki.html", projects=projects.setup())
 
-#connects /ava path of server to render ava.html
-@app.route('/ava')
-def ava_route():
-  return render_template("ava.html", projects=projects.setup())
 
 #connects /lucas path of server to render lucas.html
 @app.route('/lucas')
 def lucas_route():
   return render_template("lucas.html", projects=projects.setup())
 
-@app.route("/playground")
-def playground_route():
-  return render_template("playground.html")
 
 
 

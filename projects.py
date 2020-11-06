@@ -2,7 +2,7 @@
 #next step would be to extract project data from a database
 def setup():
   #Person Data
-  name = "KILA Comedy"
+  name = "Ketki's Corner"
   github = "https://github.com/iniyaam/Python-Web-Portfolio-Series-1"
   linkedin = "#"
   youtube = "#"
